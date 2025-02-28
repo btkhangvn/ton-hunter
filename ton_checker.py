@@ -14,7 +14,7 @@ def generate_ton_address():
     """Generate a fake TON address with a random private key (mock example)"""
     private_key = binascii.hexlify(random.randbytes(32)).decode()  # Random private key
     public_key = binascii.hexlify(random.randbytes(32)).decode()   # Random public key
-    address = f"EQ{public_key[:64]}"  # Fake address format
+    address = f"EQ{public_key[:64]}" 
 
     return private_key, address
 
