@@ -18,7 +18,7 @@ pip install requests colorama
 
 ### 2. Run the Script
 ```bash
-python script.py
+python ton_checker.py
 ```
 
 ## Configuration
