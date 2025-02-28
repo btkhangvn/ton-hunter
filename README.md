@@ -1,7 +1,7 @@
 # TON Address Balance Checker
 
 ## Description
-This Python script automatically generates random (fake) TON addresses, checks their balance via the Toncenter API, and saves only those addresses with a balance greater than 0 TON.
+This Python script automatically generates random TON addresses, checks their balance via the Toncenter API, and saves only those addresses with a balance greater than 0 TON.
 
 ## Features
 - Generates random TON addresses
@@ -34,10 +34,7 @@ If the script finds an address with a balance > 0 TON, it saves it in `valid_ton
 EQxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx: 1.23 TON (Private Key: xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx)
 ```
 
-## Important Notes
-- This script generates random (fake) TON addresses and is not intended for use with real wallets.
-- Using someone else's API key without permission violates the service rules.
-- Ensure you have the right to use the Toncenter API.
+
 
 ## License
 This project is distributed under the MIT license. Use at your own risk.
