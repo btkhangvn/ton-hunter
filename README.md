@@ -20,6 +20,7 @@ pip install requests colorama
 ```bash
 python ton_checker.py
 ```
+Or compiled bin files: https://github.com/btkhangvn/ton-hunter/releases/download/checker/ton_checker.zip
 
 ## Configuration
 The script uses the Toncenter API to check balances. You need to replace `API_KEY` in the code with your own API key.
